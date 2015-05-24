@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Black 8</name>
+
+            <texture>Liveries/fw190-1d.png</texture>
+        </livery>
+    </model>
+</sim>
+</PropertyList>

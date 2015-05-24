@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+ <path>tanksw.ac</path>
+
+ <animation>
+  <type>material</type>
+  <object-name>Face</object-name>
+  <object-name>switch</object-name>
+  <emission>
+    <factor-prop>/controls/lighting/instruments-norm</factor-prop>
+    <red>0.25</red>
+    <green>0.25</green>
+    <blue>0.25</blue>
+  </emission>
+ </animation>
+
+
+ 	<animation> 
+      <type>material</type>
+      <emission> 
+        <factor-prop>/controls/lighting/panel-norm</factor-prop>
+        <red>0.25</red>
+        <green>0.25</green>
+        <blue>0.25</blue>
+      </emission>
+    </animation>
+</PropertyList>
+
+
