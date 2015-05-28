@@ -8,6 +8,17 @@
  <offsets>
    <z-m>0.0</z-m>
  </offsets>
+
+	<nasal>
+		<load>
+		 var livery_update = aircraft.livery_update.new("Aircraft/fw190/Models/Liveries", 10);
+		</load>
+		<unload>
+		 livery_update.stop();
+		</unload>
+	</nasal>
+
+
 <!--
     <effect>
   <inherits-from>Aircraft/fw190/Models/Effects/fw190_bumpspec</inherits-from>
