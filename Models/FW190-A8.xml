@@ -18,13 +18,15 @@
 		</unload>
 	</nasal>
 
+ <sound>
+       <path>Aircraft/fw190/fw190-sound.xml</path>
+ </sound> 
 
-<!--
-    <effect>
+    <!--effect>
   <inherits-from>Aircraft/fw190/Models/Effects/fw190_bumpspec</inherits-from>
   <object-name>fuselage</object-name>
-    </effect>
--->
+    </effect-->
+
 	<model>
 		<path>Aircraft/fw190/Models/equipment.xml</path>
 		<nopreview/>
