@@ -87,6 +87,38 @@ February 2006,  Detlef Faber
 
   </model> 
 
+	<multiplay>
+		<generic>
+				<float>0</float>
+				<float>1</float>
+				<float>2</float>
+				<float>3</float>
+				<float>4</float>
+				<float>5</float>
+				<float>6</float>
+ 			    <float n="7" alias="/controls/wingfold/position-norm"/>
+ 			    <float n="8" alias="/gear/tailhook/position-norm"/>
+ 			    <float n="9" alias="/controls/engines/engine[0]/cowl-flaps-norm"/>
+ 			    <float n="10" alias="/controls/canopy/position-norm"/>
+ 			    <float n="11" alias="/controls/canopy/release"/>
+ 			    <float n="12" alias="/sim/model/crew/pilot/visible"/>
+ 			    <float n="13" alias="/sim/current-view/view-number"/>
+ 			    <float n="18" alias="/gear/gear[2]/caster-angle-deg"/>
+ 			    <float n="19" alias="/controls/flight/elevator"/>
+
+				<string>0</string>
+				<string n="1">0</string>
+
+	        <int n="0" type="int">  0 </int>  <!-- Dual Control boolean light switches-->
+			<int n="2" alias="/sim/model/lights/beacon/state"/>
+			<int n="3" alias="/sim/model/lights/strobe/state"/>
+			<int n="4" alias="/controls/lighting/nav-lights"/>
+			<int n="5" alias="/controls/lighting/landing-lights"/>
+			<int n="6" alias="/controls/switches/landing-light"/>
+
+		</generic>
+	</multiplay>
+
   <view n="0">
    <internal archive="y">true</internal>
    <config>
@@ -200,10 +232,6 @@ This is no constant speed unit!
 Propeller pitch advance is gouverned by a running line dependent on the engine rpm/manifold pressure relation. Ctrl+p toggles this on and off. If the throttle is advanced past 0.7 it will engage automatically.
 
 The actual amount of propeller pitch is displayed on the clock shaped Instrument on the right side of the lower panel. The range counts counter clockwise starting at 12.30 (full fine) to 8.30 (full course).
-
-A note on the tailwheel lock:
-
-The tailwheel locks automatically once the stick is brought backwards. It can be released by moving the stick forward again.
 
 ---Take Off---
 Flaps down 10 degrees, Take off at 1.3 ata Manifold Pressure. Lift Tailwheel as soon as possible. Be prepared to use Aileron against Torque and Rudder to counteract Swing. Lift Off at 200-210 km/h.

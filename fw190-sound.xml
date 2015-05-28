@@ -16,7 +16,7 @@
   <crank>
    <name>crank</name>
    <mode>looped</mode>
-   <path>Aircraft/p51d/Sounds/p51d_starter.wav</path>
+   <path>Sounds/p51d_starter.wav</path>
    <condition>
     <property>/engines/engine/cranking</property>
     <not>
@@ -34,7 +34,7 @@
 
   <crank>
    <name>cough</name>
-   <path>Aircraft/p51d/Sounds/p51d_startup.wav</path>
+   <path>Sounds/p51d_startup.wav</path>
    <property>/engines/engine/running</property>
    <volume>
     <offset>-0.50</offset>
@@ -48,7 +48,7 @@
   <engine>
    <name>engine</name>
    <mode>looped</mode>
-   <path>Aircraft/p51d/Sounds/p51d_rpm1.wav</path>
+   <path>Sounds/p51d_rpm1.wav</path>
    <condition>
     <property>/engines/engine/running</property>
     <less-than>
@@ -280,7 +280,7 @@
   <rockets1>
     <name>rocket1</name>
     <mode>once</mode>
-    <path>Aircraft/p51d/Sounds/rockets.wav</path>
+    <path>Aircraft/fw190/Sounds/rockets.wav</path>
     <property>/fdm/jsbsim/systems/armament/rocket-sound1</property>
     <volume>
        <factor>1.2</factor>
@@ -291,7 +291,7 @@
   <rockets2>
     <name>rocket2</name>
     <mode>once</mode>
-    <path>Aircraft/p51d/Sounds/rockets.wav</path>
+    <path>Aircraft/fw190/Sounds/rockets.wav</path>
     <property>/fdm/jsbsim/systems/armament/rocket-sound2</property>
     <volume>
        <factor>1.2</factor>
@@ -302,7 +302,7 @@
   <rockets3>
     <name>rocket3</name>
     <mode>once</mode>
-    <path>Aircraft/p51d/Sounds/rockets.wav</path>
+    <path>Aircraft/fw190/Sounds/rockets.wav</path>
     <property>/fdm/jsbsim/systems/armament/rocket-sound3</property>
     <volume>
        <factor>1.2</factor>
@@ -313,7 +313,7 @@
   <rockets4>
     <name>rocket4</name>
     <mode>once</mode>
-    <path>Aircraft/p51d/Sounds/rockets.wav</path>
+    <path>Aircraft/fw190/Sounds/rockets.wav</path>
     <property>/fdm/jsbsim/systems/armament/rocket-sound4</property>
     <volume>
        <factor>1.2</factor>
@@ -324,7 +324,7 @@
   <rockets5>
     <name>rocket5</name>
     <mode>once</mode>
-    <path>Aircraft/p51d/Sounds/rockets.wav</path>
+    <path>Aircraft/fw190/Sounds/rockets.wav</path>
     <property>/fdm/jsbsim/systems/armament/rocket-sound5</property>
     <volume>
        <factor>1.2</factor>
@@ -335,7 +335,7 @@
   <rockets6>
     <name>rocket6</name>
     <mode>once</mode>
-    <path>Aircraft/p51d/Sounds/rockets.wav</path>
+    <path>Aircraft/fw190/Sounds/rockets.wav</path>
     <property>/fdm/jsbsim/systems/armament/rocket-sound6</property>
     <volume>
        <factor>1.2</factor>
@@ -346,7 +346,7 @@
   <rockets7>
     <name>rocket7</name>
     <mode>once</mode>
-    <path>Aircraft/p51d/Sounds/rockets.wav</path>
+    <path>Aircraft/fw190/Sounds/rockets.wav</path>
     <property>/fdm/jsbsim/systems/armament/rocket-sound7</property>
     <volume>
        <factor>1.2</factor>
@@ -357,7 +357,7 @@
   <rockets8>
     <name>rocket8</name>
     <mode>once</mode>
-    <path>Aircraft/p51d/Sounds/rockets.wav</path>
+    <path>Aircraft/fw190/Sounds/rockets.wav</path>
     <property>/fdm/jsbsim/systems/armament/rocket-sound8</property>
     <volume>
        <factor>1.2</factor>
@@ -368,7 +368,7 @@
   <rockets9>
     <name>rocket9</name>
     <mode>once</mode>
-    <path>Aircraft/p51d/Sounds/rockets.wav</path>
+    <path>Aircraft/fw190/Sounds/rockets.wav</path>
     <property>/fdm/jsbsim/systems/armament/rocket-sound9</property>
     <volume>
        <factor>1.2</factor>
@@ -379,7 +379,7 @@
   <rockets10>
     <name>rocket10</name>
     <mode>once</mode>
-    <path>Aircraft/p51d/Sounds/rockets.wav</path>
+    <path>Aircraft/fw190/Sounds/rockets.wav</path>
     <property>/fdm/jsbsim/systems/armament/rocket-sound10</property>
     <volume>
        <factor>1.2</factor>

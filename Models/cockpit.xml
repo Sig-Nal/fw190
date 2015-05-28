@@ -399,7 +399,7 @@
 
  <model>
     <name>parkbrakeslight</name>
-    <path>Aircraft/bf109/Models/Instruments/PB/park-brake-light.xml</path>
+    <path>Aircraft/fw190/Models/Instruments/PB/park-brake-light.xml</path>
     <offsets>
    <x-m>3.21</x-m>
    <y-m>0.24</y-m>
