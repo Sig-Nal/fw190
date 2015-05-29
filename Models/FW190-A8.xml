@@ -429,7 +429,7 @@
  <animation>
   <type>rotate</type>
   <object-name>rudder</object-name>
-  <property>sim/multiplay/generic/float[20]</property>
+<property>surface-positions/rudder-pos-norm</property>
   <factor>30.0</factor>
 
   <center>
